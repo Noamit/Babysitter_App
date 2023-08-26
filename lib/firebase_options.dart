@@ -50,20 +50,56 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB-JAqP1nupk_dV70K0OxJ_uW7Znz-Tpkk',
-    appId: '1:433979190662:android:de36844c3eb9fd017ad007',
-    messagingSenderId: '433979190662',
-    projectId: 'babysitter-seminar',
-    storageBucket: 'babysitter-seminar.appspot.com',
+    apiKey: String.fromEnvironment(
+      'ANDROID_APP_API_KEY',
+      defaultValue: '',
+    ),
+    appId: String.fromEnvironment(
+      'ANDROID_APP_APP_ID',
+      defaultValue: '',
+    ),
+    messagingSenderId: String.fromEnvironment(
+      'ANDROID_APP_MESSAGING_SENDER_ID',
+      defaultValue: '',
+    ),
+    projectId: String.fromEnvironment(
+      'ANDROID_APP_PROJECT_ID',
+      defaultValue: '',
+    ),
+    storageBucket: String.fromEnvironment(
+      'ANDROID_APP_STORAGE_BUCKET',
+      defaultValue: '',
+    ),
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCzjw5Ak3zClikGZYPiR6TEg__vKN7dieY',
-    appId: '1:433979190662:ios:128618d31e093e177ad007',
-    messagingSenderId: '433979190662',
-    projectId: 'babysitter-seminar',
-    storageBucket: 'babysitter-seminar.appspot.com',
-    iosClientId: '433979190662-jm6ls7126hk74kbvbmvu26cso30soamj.apps.googleusercontent.com',
-    iosBundleId: 'com.example.babySitterProject',
+    apiKey: String.fromEnvironment(
+      'IOS_APP_API_KEY',
+      defaultValue: '',
+    ),
+    appId: String.fromEnvironment(
+      'IOS_APP_APP_ID',
+      defaultValue: '',
+    ),
+    messagingSenderId: String.fromEnvironment(
+      'IOS_APP_MESSAGING_SENDER_ID',
+      defaultValue: '',
+    ),
+    projectId: String.fromEnvironment(
+      'IOS_APP_PROJECT_ID',
+      defaultValue: '',
+    ),
+    storageBucket: String.fromEnvironment(
+      'IOS_APP_STORAGE_BUCKET',
+      defaultValue: '',
+    ),
+    iosClientId: String.fromEnvironment(
+      'IOS_APP_CLIENT_ID',
+      defaultValue: '',
+    ),
+    iosBundleId: String.fromEnvironment(
+      'IOS_APP_BUNDLE_ID',
+      defaultValue: '',
+    ),
   );
 }

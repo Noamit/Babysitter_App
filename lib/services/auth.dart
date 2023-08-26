@@ -171,7 +171,10 @@ class AuthService {
   static Future<int?> calculateDistance(
       String address1, String address2) async {
     try {
-      final apiKey = 'AIzaSyAATmkFbdy8cMiF5lPaFEZ9qBNSkty8OEA';
+      final apiKey = String.fromEnvironment(
+        'API_KEY',
+        defaultValue: '',
+      );
       final address1Encoded = Uri.encodeQueryComponent(address1);
       final address2Encoded = Uri.encodeQueryComponent(address2);
       final apiUrl =
@@ -231,8 +234,10 @@ class AuthService {
       await post(Uri.parse('https://fcm.googleapis.com/fcm/send'),
           headers: {
             HttpHeaders.contentTypeHeader: 'application/json',
-            HttpHeaders.authorizationHeader:
-                'key=AAAAZQss7YY:APA91bF0h9zzJcmSXXecGJuOaGnDCIgeyJKeI4KGCOCVA2_g31Huj9XVU52ea80pNsU_oa8kILpYjQWFQSY7-dQqzWusMt08MMMA7rNZpj-vLZ11skAM2Hd_ACn89irdrIMaiGJbiADB'
+            HttpHeaders.authorizationHeader: String.fromEnvironment(
+              'AUTH_HEADER',
+              defaultValue: '',
+            ),
           },
           body: jsonEncode(body));
     } catch (e) {
