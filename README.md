@@ -7,6 +7,7 @@ Table of Contents
   - Features
   - Installation
   - Usage
+  - Server Repository
     
 Introduction
 
@@ -43,6 +44,9 @@ Usage
 - Communicate with other users through the app's messaging system to arrange babysitting appointments.
 - Always use appropriate language and maintain a respectful environment within the app.
 
+Server Repository
+
+The server for the Babysitter Connect App is hosted in a separate repository called Babysitter_app_server. Be sure to check out the server repository for information on setting up and configuring the server-side components of the app.
 
 ## Getting Started
 
