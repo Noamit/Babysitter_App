@@ -10,6 +10,7 @@ Table of Contents
     
 Introduction
 
+
 The Babysitter Connect App is a powerful and convenient platform designed to streamline the process of connecting parents with reliable babysitters. Say goodbye to word-of-mouth searches and embrace a modern, user-friendly approach to find the perfect babysitter for your needs. This README file provides an overview of the app, its features, and how to get started.
 
 Features
