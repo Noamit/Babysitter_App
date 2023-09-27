@@ -9,9 +9,11 @@ Table of Contents
   - Usage
     
 Introduction
+
 The Babysitter Connect App is a powerful and convenient platform designed to streamline the process of connecting parents with reliable babysitters. Say goodbye to word-of-mouth searches and embrace a modern, user-friendly approach to find the perfect babysitter for your needs. This README file provides an overview of the app, its features, and how to get started.
 
 Features
+
 1. Search by Criteria
 Easily find babysitters that match your specific criteria. The app allows parents to search for babysitters based on factors like location, availability, experience, and more. This feature ensures that you can quickly identify babysitters who meet your unique needs.
 
@@ -25,6 +27,7 @@ Parents can post detailed babysitting requests on the "Wanted" page. Specify the
 Our application enforces the use of appropriate language throughout the platform. We have implemented a language filter to maintain a respectful and professional environment for both parents and babysitters.
 
 Installation
+
 To get started with the Babysitter Connect App, follow these steps:
   a. Clone this repository to your local machine.
   b. Install the required dependencies using npm install or yarn install.
@@ -32,6 +35,7 @@ To get started with the Babysitter Connect App, follow these steps:
   d. Run the app using npm start or yarn start.
   
 Usage
+
 - Sign up or log in as a parent or babysitter.
 - Explore the platform to search for babysitters or post babysitting requests.
 - Customize your profile to provide detailed information about your babysitting needs or qualifications.
