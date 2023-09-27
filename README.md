@@ -1,6 +1,7 @@
 # baby_sitter
 
 Babysitter Connect App:
+
 Table of Contents
   - Introduction
   - Features
