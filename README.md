@@ -61,9 +61,9 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-[[Demo Watch the Demonstration Video](https://i9.ytimg.com/vi_webp/s-7lb1fwsgs/maxresdefault.webp?v=65520e49&sqp=CMCfyKoG&rs=AOn4CLAP2zF_VaCi_PZpocxDol51TAqnHg)](https://www.youtube.com/watch?v=s-7lb1fwsgs)
+[[Demo Watch the Demonstration Video]()](https://www.youtube.com/watch?v=s-7lb1fwsgs)
 
 
 
-
+[<img src="[https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg](https://i9.ytimg.com/vi_webp/s-7lb1fwsgs/maxresdefault.webp?v=65520e49&sqp=CMCfyKoG&rs=AOn4CLAP2zF_VaCi_PZpocxDol51TAqnHg)https://i9.ytimg.com/vi_webp/s-7lb1fwsgs/maxresdefault.webp?v=65520e49&sqp=CMCfyKoG&rs=AOn4CLAP2zF_VaCi_PZpocxDol51TAqnHg" width="50%">](https://www.youtube.com/watch?v=s-7lb1fwsgs)
 
