@@ -64,8 +64,5 @@ samples, guidance on mobile development, and a full API reference.
 
 Demonstration Video :
 
-[<img src="https://i9.ytimg.com/vi_webp/s-7lb1fwsgs/maxresdefault.webp?v=65520e49&sqp=CJSA86oG&rs=AOn4CLC_ZQvr2X_ZuiQCViiHmmZRMiOcLA" width="50%">](https://www.youtube.com/watch?v=s-7lb1fwsgs)
-
 [<img src="https://github.com/Noamit/Babysitter_App/assets/92599163/589eda28-b121-4cab-a4d2-12732be3a4cf" width="50%">](https://www.youtube.com/watch?v=s-7lb1fwsgs)
 
-![2023-11-13_13-52](https://github.com/Noamit/Babysitter_App/assets/92599163/589eda28-b121-4cab-a4d2-12732be3a4cf)
